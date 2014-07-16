@@ -12,7 +12,7 @@
 			
 			<?php if ( !is_single() && !is_search() ) { ?>
                         <?php if('' != get_the_post_thumbnail()) { ?>
-				<a href="<?php the_permalink(); ?>" title="<?php echo esc_attr( sprintf( esc_html_e( 'Permalink to %s', 'superb' ), the_title_attribute( 'echo=0' ) ) ); ?>">
+				<a href="<?php the_permalink(); ?>" title="<?php echo esc_attr(get_the_title()); ?>">
 					<?php the_post_thumbnail( 'post_feature_full_width' ); ?>
                                     
 				</a>
@@ -32,7 +32,7 @@
 			<?php }
 			else { ?>
 				<h2 class="entry-title">
-					<a href="<?php the_permalink(); ?>" title="<?php echo esc_attr( sprintf( esc_html__( 'Permalink to %s', 'superb' ), the_title_attribute( 'echo=0' ) ) ); ?>" rel="bookmark"><?php the_title(); ?></a>
+					<a href="<?php the_permalink(); ?>" title="<?php echo esc_attr(get_the_title()); ?>" rel="bookmark"><?php the_title(); ?></a>
 				</h2>
 			<?php } // is_single() ?>
                                 
