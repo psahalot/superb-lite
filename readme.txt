@@ -147,15 +147,35 @@ source: https://github.com/ComputerWolf/SlickNav
 Superb uses the following images licensed under Creative Commons public domain deed CC0
 http://creativecommons.org/publicdomain/zero/1.0/
 
-Slider Image1 : slide1.jpg Copyright Paul E. Harrer
-Source: http://unsplash.com/post/75618978410/download-by-paul-e-harrer
+Slider Image1 : slide1.jpg 
+Source: http://pixabay.com/en/road-asphalt-space-sky-clouds-220058/
+Author URL: http://pixabay.com/en/users/PublicDomainPictures/
+Licensed under Creative Commons public domain deed CC0 (http://creativecommons.org/publicdomain/zero/1.0/)
 
-Slider Image2 : slide2.jpg (http://unsplash.com/post/85385371509/download-by-drew-patrick-miller) By Drew Patrick Miller
-Slider Image3 : slide3.jpg (http://unsplash.com/post/51495156548/download-by-alejandro-escamilla)  By Alejandro Escamilla
+Slider Image2 : slide2.jpg 
+Source: http://pixabay.com/en/lake-hills-mountain-landscape-391423/
+Author URL : http://pixabay.com/en/users/Mhy/
+Licensed under Creative Commons public domain deed CC0 (http://creativecommons.org/publicdomain/zero/1.0/)
 
-Featured Image 1: img4.jpg (http://unsplash.com/post/55904505955/download-by-art-wave-web-design) By Art Wave Web Design
-Featured Image 2: img5.jpg (http://unsplash.com/post/51493699530/download-by-alejandro-escamilla) By Alejandro Escamilla
-Featured Image 3: img6.jpg (http://unsplash.com/post/59630943411/download-caroline-gutman) Caroline Gutman
+Slider Image3 : slide3.jpg 
+Source : http://pixabay.com/en/morocco-africa-desert-marroc-sand-123978/
+Author URL: http://pixabay.com/en/users/makunin/
+Licensed under Creative Commons public domain deed CC0 (http://creativecommons.org/publicdomain/zero/1.0/)
+
+Featured Image 1: feature1.jpg 
+Source :http://pixabay.com/en/iphone-iphone-4-phone-black-cell-338961/
+Author URL: http://pixabay.com/en/users/kropekk_pl/
+Licensed under Creative Commons public domain deed CC0 (http://creativecommons.org/publicdomain/zero/1.0/)
+
+Featured Image 2: feature2.jpg 
+Source: http://pixabay.com/en/notebook-laptop-work-pc-computer-405755/
+Author URL: http://pixabay.com/en/users/Picography/
+Licensed under Creative Commons public domain deed CC0 (http://creativecommons.org/publicdomain/zero/1.0/)
+
+Featured Image 3: feature4.jpg 
+Source: http://pixabay.com/en/tree-see-mirroring-sky-blue-sun-68909/
+Author URL: http://pixabay.com/en/users/Lichtmagnet/
+Licensed under Creative Commons public domain deed CC0 (http://creativecommons.org/publicdomain/zero/1.0/)
 
 == Changelog ==
 
