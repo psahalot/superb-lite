@@ -154,7 +154,7 @@ get_header();
                     <?php if ( get_theme_mod('home_featured_one') !='' ) {  ?>
                      <div class="featured-image"><img src="<?php echo get_theme_mod('home_featured_one'); ?>" /></div>
                     <?php } else {  ?>
-                     <div class="featured-image"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/img4.jpg" /></div>
+                     <div class="featured-image"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/feature1.jpg" /></div>
                      <?php } ?>
 
 
@@ -179,7 +179,7 @@ get_header();
                     <?php if ( get_theme_mod('home_featured_two') !='' ) {  ?>
                      <div class="featured-image"><img src="<?php echo get_theme_mod('home_featured_two'); ?>" /></div>
                     <?php } else {  ?>
-                     <div class="featured-image"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/img5.jpg" /></div>
+                     <div class="featured-image"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/feature2.jpg" /></div>
                      <?php } ?>
 
 
@@ -205,7 +205,7 @@ get_header();
                     <?php if ( get_theme_mod('home_featured_three') !='' ) {  ?>
                      <div class="featured-image"><img src="<?php echo get_theme_mod('home_featured_three'); ?>" /></div>
                     <?php } else {  ?>
-                     <div class="featured-image"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/img6.jpg" /></div>
+                     <div class="featured-image"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/feature4.jpg" /></div>
                      <?php } ?>
 
 
