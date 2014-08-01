@@ -75,7 +75,7 @@ function superb_customize_register($wp_customize) {
     // Add color scheme options
 
     $wp_customize->add_setting('superb_color_scheme', array(
-        'default' => 'blue',
+        'default' => 'red',
         'sanitize_callback' => 'superb_sanitize_color_scheme_option',
     ));
 
@@ -85,33 +85,11 @@ function superb_customize_register($wp_customize) {
         'default' => 'red',
         'type' => 'radio',
         'choices' => array(
-            'blue' => __('Blue', 'superb'),
             'red' => __('Red', 'superb'),
-            'green' => __('Green', 'superb'),
-            'yellow' => __('Yellow', 'superb'),
+            'green' => __('Green', 'superb')
         ),
     ));
 
-
-    // Add new section for Custom Favicon settings
-    $wp_customize->add_section('superb_custom_favicon_setting', array(
-        'title' => __('Custom Favicon', 'superb'),
-        'priority' => 68,
-    ));
-
-
-    $wp_customize->add_setting('custom_favicon');
-
-    $wp_customize->add_control(
-            new WP_Customize_Image_Control(
-            $wp_customize, 'custom_favicon', array(
-        'label' => 'Custom Favicon',
-        'section' => 'superb_custom_favicon_setting',
-        'settings' => 'custom_favicon',
-        'priority' => 1,
-            )
-            )
-    );
 
     // Add new section for Header Contact settings
     $wp_customize->add_section('header_contact_setting', array(
@@ -268,75 +246,6 @@ function superb_customize_register($wp_customize) {
         'settings' => 'slider_two_link_url',
         'priority' => 10,
     ));
-
-
-    $wp_customize->add_setting('slider_three', array(
-        'transport' => 'postMessage',
-    ));
-
-    $wp_customize->add_control(
-            new WP_Customize_Image_Control(
-            $wp_customize, 'slider_three', array(
-        'label' => 'Slider 3',
-        'section' => 'home_slider_setting',
-        'settings' => 'slider_three',
-        'priority' => 11,
-            )
-            )
-    );
-
-
-    // slider Title
-    $wp_customize->add_setting('slider_title_three', array(
-        'sanitize_callback' => 'sanitize_text_field',
-        'transport' => 'postMessage',
-    ));
-
-    $wp_customize->add_control('slider_title_three', array(
-        'label' => __('Slider Three Title', 'superb'),
-        'section' => 'home_slider_setting',
-        'settings' => 'slider_title_three',
-        'priority' => 12,
-    ));
-
-    $wp_customize->add_setting('slider_three_description', array('default' => '',
-        'sanitize_callback' => 'sanitize_text_field',
-        'transport' => 'postMessage',
-    ));
-
-    $wp_customize->add_control(new superb_customize_textarea_control($wp_customize, 'slider_three_description', array(
-        'label' => __('Description', 'superb'),
-        'section' => 'home_slider_setting',
-        'settings' => 'slider_three_description',
-        'priority' => 13,
-    )));
-
-    // link text
-    $wp_customize->add_setting('slider_three_link_text', array(
-        'sanitize_callback' => 'sanitize_text_field',
-        'transport' => 'postMessage',
-    ));
-
-    $wp_customize->add_control('slider_three_link_text', array(
-        'label' => __('Slider Three Link Text', 'superb'),
-        'section' => 'home_slider_setting',
-        'settings' => 'slider_three_link_text',
-        'priority' => 14,
-    ));
-
-    // link url
-    $wp_customize->add_setting('slider_three_link_url', array('default' => __('', 'superb'),
-        'sanitize_callback' => 'sanitize_text_field',
-        'transport' => 'postMessage',
-    ));
-
-    $wp_customize->add_control('slider_three_link_url', array(
-        'label' => __('Slider Three Link URL', 'superb'),
-        'section' => 'home_slider_setting',
-        'settings' => 'slider_three_link_url',
-        'priority' => 15,
-    ));
-
    
     // Add new section for Social Icons
     $wp_customize->add_section('social_icon_setting', array(

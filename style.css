@@ -654,7 +654,7 @@ select {
 }
 
 .header-extras .social-links{
-    margin-top:20px;
+    margin-top:40px;
     float:right;
 }
 
@@ -1940,6 +1940,7 @@ form label.error {
     float:right;
 }
 .footer-wrap .social-links{
+    margin-top: 15px; 
     float:right;
 }
 
@@ -2789,7 +2790,7 @@ img#wpstats {
 .superb-green .home-featured-post .more-link,
 .superb-green .slider-wrapper .flex-caption .slider-button
 {
-    background: #3ac1c2;
+    background: #48B74D;
 }
 
 .superb-green .main-navigation ul ul a
@@ -2798,22 +2799,22 @@ img#wpstats {
 }
 
 .superb-green #reviewslider .slides img{
-    border:3px solid #3ac1c2;
+    border:3px solid #48B74D;
 }
 
 .superb-green ::selection
 {
-    background:#3ac1c2;
+    background:#48B74D;
     color:#fff;
 }
 
 .superb-green .contact-area:before{
-    border-top-color:#3ac1c2;
+    border-top-color:#48B74D;
 }
 
 .superb-green .nav-container
 {
-    background:#299999;
+    background:#48B74D;
 }
 .superb-green .site-title a,
 .superb-green .home-featured-post-title,
@@ -2834,7 +2835,7 @@ img#wpstats {
 .superb-green .home-contact #email:before,
 .superb-green .sidebar .widget li:before
 {
-    color:#3ac1c2;
+    color:#48B74D;
 }
 
 .superb-green .entry-header h1 a:hover{
@@ -2842,78 +2843,6 @@ img#wpstats {
 }
 
 
-/* ! Superb Yellow */
-.superb-yellow .home-cta-area,
-.superb-yellow .feature-more-link,
-.superb-yellow #footercontainer,
-.superb-yellow .pagination .page-numbers:hover,
-.superb-yellow li span.page-numbers,
-.superb-yellow li a.page-numbers,
-.superb-yellow button:hover,
-.superb-yellow input:hover[type="button"],
-.superb-yellow input:hover[type="reset"],
-.superb-yellow input:hover[type="submit"],
-.superb-yellow .entry-content .button:hover,
-.superb-yellow .page-links .page-numbers:hover,
-.superb-yellow .superb-caption .slider-button,
-.superb-yellow .home-featured .read-more,
-.superb-yellow .home-contact-form input[type="submit"],
-.superb-yellow input[type="submit"]
-.superb-yellow .main-navigation ul ul li,
-.superb-yellow .slider-wrapper .flex-caption .slider-button,
-.superb-yellow .home-featured-post .more-link
-{
-    background: #d9ca39;
-}
-
-.superb-yellow .main-navigation ul ul a
-{
-    color:#fff;
-}
-
-.superb-yellow .contact-area:before{
-    border-top-color:#d9ca39;
-}
-
-.superb-yellow #reviewslider .slides img{
-    border:3px solid #d9ca39;
-}
-.superb-yellow ::selection
-{
-    background:#d9ca39;
-    color:#fff;
-}
-
-
-.superb-yellow .nav-container
-{
-    background:c9bb3a;
-}
-.superb-yellow .site-title a,
-.superb-yellow .home-featured-post-title,
-.superb-yellow .sidebar a,
-.superb-yellow .entry-header .entry-title a,
-.superb-yellow .entry-header .entry-title,
-.superb-yellow .entry-header h1 a:visited,
-.superb-yellow label .required,
-.superb-yellow span.required,
-.superb-yellow .header-meta .fa,
-.superb-yellow .header-meta a:hover,
-.superb-yellow .nav-previous a:hover,
-.superb-yellow .nav-next a:hover,
-.superb-yellow .home-contact .fa,
-.superb-yellow .header-contact p:before,
-.superb-yellow .home-contact #address:before,
-.superb-yellow .home-contact #phone:before,
-.superb-yellow .home-contact #email:before,
-.superb-yellow .sidebar .widget li:before
-{
-    color:#d9ca39;
-}
-
-.superb-yellow .entry-header h1 a:hover{
-    color:#111;
-}
 
 /* ==========================================================================
    Media Queries

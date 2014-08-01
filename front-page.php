@@ -49,18 +49,7 @@ get_header();
                  </div>
             </li>
             
-            <li id="slider3">
-                <img  src="<?php echo get_template_directory_uri(); ?>/assets/images/slide3.jpg" alt=""/>
-               <div class="flex-caption">
-                   <div class="caption-content">
-                       <div class="caption-inner">
-                     <h2 class="slider-title"><a href="#"><?php esc_html_e('Display latest blog posts', 'superb') ?></a></h2>
-                     <p><?php esc_html_e('Keep your users updated with latest happenings.', 'superb') ?> </p>
-                      
-                   </div>
-                   </div>
-                 </div>
-            </li>
+           
             
             <?php } ?>
             
@@ -113,31 +102,7 @@ get_header();
                 </li>
                    <?php } ?>
                 
-               
-                  <?php 
-                   // load third slide
-                   if ( get_theme_mod('slider_three') !='' ) {  ?>
-                <li id="slider3">
-                    <img  src="<?php echo esc_url(get_theme_mod('slider_three')); ?>" alt=""/>
-                  <?php if ( get_theme_mod('slider_title_three') !='' || get_theme_mod('slider_three_description') !='' ) {  ?>
-                    <div class="flex-caption">
-                        <div class="caption-content">
-                            <div class="caption-inner">
-                              <h2 class="slider-title"><?php echo esc_html(get_theme_mod('slider_title_three')); ?></h2>
-                            <p><?php echo esc_html(get_theme_mod('slider_three_description')); ?></p>
-                                 
-                           <?php if ( get_theme_mod('slider_three_link_url') !='' && get_theme_mod('slider_three_link_text') !=''  ) {  ?>
-                            <a class="slider-button" href="<?php echo esc_url(get_theme_mod('slider_three_link_url')); ?>">
-                            <?php echo esc_html(get_theme_mod('slider_three_link_text')); ?>
-                                <?php } ?>
-                            </a>
-                        </div>
-                        </div>
-                     </div>
-                  <?php } ?>
-                </li>
-                   <?php } ?>
-                
+              
                 <?php } ?>
             
         </ul>

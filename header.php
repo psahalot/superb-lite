@@ -26,7 +26,7 @@
         <?php wp_head(); ?>
     </head>
 
-        <body <?php body_class(); ?>>
+        <body <?php body_class('superb-red'); ?>>
 
             <div id="wrapper" class="hfeed site">
 

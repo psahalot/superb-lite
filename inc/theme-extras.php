@@ -517,18 +517,12 @@ function superb_envira_define_license_key() {
     
 }
 
-function superb_custom_favicon(){ 
-    if(get_theme_mod('custom_favicon')) { ?>
-    <link rel="shortcut icon" href="<?php echo get_theme_mod('custom_favicon'); ?> " />
-    <?php }
-}
-add_action('wp_head','superb_custom_favicon');
 
 function superb_admin_notice(){
     global $pagenow;
     if ( $pagenow == 'themes.php' ) { ?>
           <div class="updated">
-              <p>This theme comes with <a href="<?php echo admin_url('customize.php'); ?>">Live Theme Customizer</a> to configure settings and setup home page content. <br/> You can upgrade to <a href="http://ideaboxthemes.com/themes/superb-wordpress-theme/">Pro version</a> for more features like multiple slider images, testimonials, color schemes, support and upgrades.</p>
+              <p>This theme comes with <a href="<?php echo admin_url('customize.php'); ?>">Live Theme Customizer</a> to configure settings and setup home page content. <br/> You can upgrade to <a href="http://ideaboxthemes.com/themes/superb-wordpress-theme/">Pro version</a> for more features like multiple slider images, testimonials, multiple color schemes, support and upgrades.</p>
          </div>
    <?php  }
 }
