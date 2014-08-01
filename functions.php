@@ -8,17 +8,6 @@
 
 require( get_template_directory() . '/inc/customizer.php' ); // new customizer options
 
-
-if (!class_exists('superb_SL_Theme_Updater')) {
-    // Load our custom theme updater
-    include( dirname(__FILE__) . '/inc/theme-updater.php' );
-}
-
-// configuration file for theme licensing 
-// theme updater and licensing
-
-include(get_stylesheet_directory() . '/inc/theme-updater-config.php');
-
 /**
  * Add support for a custom header image.
  */
@@ -110,7 +99,7 @@ function superb_scripts_styles() {
 	wp_enqueue_style( 'fontawesome', trailingslashit( get_template_directory_uri() ) . 'assets/css/font-awesome.min.css' , array(), '4.0.3', 'all' );
         
          if ( class_exists('woocommerce') ) {
-        wp_enqueue_style( 'superb-woocommerce', trailingslashit( get_template_directory_uri() ) . 'assets/css/superb-woocommerce.css' , array(), '1.0', 'all' );
+            wp_enqueue_style( 'superb-woocommerce', trailingslashit( get_template_directory_uri() ) . 'assets/css/superb-woocommerce.css' , array(), '1.0', 'all' );
          }
          
         wp_enqueue_style( 'flexslider', trailingslashit( get_template_directory_uri() ) . 'assets/css/flexslider.css' , array(), '1.0', 'all' );
@@ -123,7 +112,7 @@ function superb_scripts_styles() {
 	}
 
 	// Enqueue the default WordPress stylesheet
-	wp_enqueue_style( 'style', get_stylesheet_uri(), array(), '1.0', 'all' );
+	wp_enqueue_style( 'superb-style', get_stylesheet_uri(), array(), '1.0', 'all' );
 
         wp_enqueue_script('jquery'); 
         

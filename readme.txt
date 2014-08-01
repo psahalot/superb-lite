@@ -3,8 +3,8 @@ Contributors: Puneet Sahalot, Nidhi Jain
 Author URI: http://ideaboxthemes.com
 Tags: blue, orange, brown, red, pink, purple, yellow, green, one-column, two-columns, right-sidebar, fluid-layout, responsive-layout, custom-background, custom-header, custom-menu, editor-style, featured-image-header, featured-images, full-width-template, microformats, post-formats, sticky-post, theme-options, threaded-comments, translation-ready
 Requires at least: 3.6
-Tested up to: 3.9
-Stable tag: 1.0
+Tested up to: 3.9.2
+Stable tag: 1.0.2
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -62,7 +62,6 @@ Home call to action area
 Contact details for home page
 Contact form for home page
 Custom footer credit text
-Tracking code and scripts
 Custom CSS
 
 
@@ -136,7 +135,7 @@ Flexslider by WooThemes, licensed under GPLv2
 source: https://github.com/woothemes/FlexSlider by WooThemes, licensed under GPLv2
  
 Raleway font is licensed under SIL Open Font License 1.1
-source: http://www.google.com/fonts/specimen/Open+Sans
+source: http://www.google.com/fonts/specimen/Raleway
 
 Slicknav Copyright 2014 Josh Cope
 Slicknav is licensed under MIT License
@@ -157,6 +156,12 @@ Slider Image3 : slide3.jpg (http://unsplash.com/post/51495156548/download-by-ale
 Featured Image 1: img4.jpg (http://unsplash.com/post/55904505955/download-by-art-wave-web-design) By Art Wave Web Design
 Featured Image 2: img5.jpg (http://unsplash.com/post/51493699530/download-by-alejandro-escamilla) By Alejandro Escamilla
 Featured Image 3: img6.jpg (http://unsplash.com/post/59630943411/download-caroline-gutman) Caroline Gutman
+
+== Changelog ==
+
+= 1.0.2 =
+- Updated license and credits
+- Added escaping for social icons
 
 = 1.0 =
 - Initial version

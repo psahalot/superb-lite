@@ -69,7 +69,7 @@ get_header();
           // load first slide
             if ( get_theme_mod('slider_one') !='' ) {  ?>
                     <li id="slider1">
-                    <img  src="<?php echo get_theme_mod('slider_one'); ?>" alt=""/>
+                    <img  src="<?php echo esc_url(get_theme_mod('slider_one')); ?>" alt=""/>
                  <?php if ( get_theme_mod('slider_title_one') !='' || get_theme_mod('slider_one_description') !='' ) {  ?>
                     <div class="flex-caption">
                         <div class="caption-content">
@@ -93,7 +93,7 @@ get_header();
                    // load second slide 
                    if ( get_theme_mod('slider_two') !='' ) {  ?>
                 <li id="slider2">
-                    <img  src="<?php echo get_theme_mod('slider_two'); ?>" alt=""/>
+                    <img  src="<?php echo esc_url(get_theme_mod('slider_two')); ?>" alt=""/>
                     <?php if ( get_theme_mod('slider_title_two') !='' || get_theme_mod('slider_two_description') !='' ) {  ?>
                     <div class="flex-caption">
                         <div class="caption-content">
@@ -118,7 +118,7 @@ get_header();
                    // load third slide
                    if ( get_theme_mod('slider_three') !='' ) {  ?>
                 <li id="slider3">
-                    <img  src="<?php echo get_theme_mod('slider_three'); ?>" alt=""/>
+                    <img  src="<?php echo esc_url(get_theme_mod('slider_three')); ?>" alt=""/>
                   <?php if ( get_theme_mod('slider_title_three') !='' || get_theme_mod('slider_three_description') !='' ) {  ?>
                     <div class="flex-caption">
                         <div class="caption-content">
@@ -152,7 +152,7 @@ get_header();
             <div class="home-featured">
                 <div class="home-featured-one grid_4_of_12 col">
                     <?php if ( get_theme_mod('home_featured_one') !='' ) {  ?>
-                     <div class="featured-image"><img src="<?php echo get_theme_mod('home_featured_one'); ?>" /></div>
+                     <div class="featured-image"><img src="<?php echo esc_url(get_theme_mod('home_featured_one')); ?>" /></div>
                     <?php } else {  ?>
                      <div class="featured-image"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/img4.jpg" /></div>
                      <?php } ?>
@@ -177,7 +177,7 @@ get_header();
 
                 <div class="home-featured-two grid_4_of_12 col">
                     <?php if ( get_theme_mod('home_featured_two') !='' ) {  ?>
-                     <div class="featured-image"><img src="<?php echo get_theme_mod('home_featured_two'); ?>" /></div>
+                     <div class="featured-image"><img src="<?php echo esc_url(get_theme_mod('home_featured_two')); ?>" /></div>
                     <?php } else {  ?>
                      <div class="featured-image"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/img5.jpg" /></div>
                      <?php } ?>
@@ -203,7 +203,7 @@ get_header();
 
                 <div class="home-featured-three grid_4_of_12 col">
                     <?php if ( get_theme_mod('home_featured_three') !='' ) {  ?>
-                     <div class="featured-image"><img src="<?php echo get_theme_mod('home_featured_three'); ?>" /></div>
+                     <div class="featured-image"><img src="<?php echo esc_url(get_theme_mod('home_featured_three')); ?>" /></div>
                     <?php } else {  ?>
                      <div class="featured-image"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/img6.jpg" /></div>
                      <?php } ?>
@@ -321,22 +321,22 @@ get_header();
                           <div class="social-links">
                                 <ul>
                                     <?php if (get_theme_mod('facebook_link_url')) { ?>
-                                        <li class="superb-fb"><a href="<?php echo get_theme_mod('facebook_link_url'); ?>"></a></li>
+                                        <li class="superb-fb"><a href="<?php echo esc_url(get_theme_mod('facebook_link_url')); ?>"></a></li>
                                     <?php } ?>
                                     <?php if(get_theme_mod('twitter_link_url')) { ?>
-                                        <li class="superb-twitter"><a href="<?php echo  get_theme_mod('twitter_link_url'); ?>"></a></li>
+                                        <li class="superb-twitter"><a href="<?php echo  esc_url(get_theme_mod('twitter_link_url')); ?>"></a></li>
                                     <?php } ?>
                                     <?php if(get_theme_mod('googleplus_link_url')) { ?>
-                                        <li class="superb-gplus"><a href="<?php echo get_theme_mod('googleplus_link_url'); ?>"></a></li>
+                                        <li class="superb-gplus"><a href="<?php echo esc_url(get_theme_mod('googleplus_link_url')); ?>"></a></li>
                                     <?php } ?>
                                     <?php if( get_theme_mod('pinterest_link_url')) { ?>
-                                        <li class="superb-pinterest"><a href="<?php echo get_theme_mod('pinterest_link_url'); ?>"></a></li>
+                                        <li class="superb-pinterest"><a href="<?php echo esc_url(get_theme_mod('pinterest_link_url')); ?>"></a></li>
                                     <?php } ?>
                                     <?php if (get_theme_mod('github_link_url')) { ?>
-                                        <li class="superb-github"><a href="<?php echo get_theme_mod('github_link_url'); ?>"></a></li>
+                                        <li class="superb-github"><a href="<?php echo esc_url(get_theme_mod('github_link_url')); ?>"></a></li>
                                     <?php } ?>
                                     <?php if(get_theme_mod('youtube_link_url')) { ?>
-                                        <li class="superb-youtube"><a href="<?php echo get_theme_mod('youtube_link_url'); ?>"></a></li>
+                                        <li class="superb-youtube"><a href="<?php echo esc_url(get_theme_mod('youtube_link_url')); ?>"></a></li>
                                     <?php } ?>
                                 </ul>
                             </div>
@@ -368,7 +368,7 @@ get_header();
                     <div class="home-contact-form">
                         <div class="contact-form-wrapper">
                         <?php if ( get_theme_mod('superb_contact_form') !='' ) {  ?> 
-                         <?php echo do_shortcode(get_theme_mod('superb_contact_form')); ?>
+                         <?php echo do_shortcode((get_theme_mod('superb_contact_form'))); ?>
                         <?php } else { ?>
                         <?php esc_html_e('You can add contact form here with a contact form shortcode'
                                 . 'from Gravity Forms or Contact Form7 or any other plugin of your choice.', 'superb'); ?> 

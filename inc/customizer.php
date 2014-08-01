@@ -113,24 +113,6 @@ function superb_customize_register($wp_customize) {
             )
     );
 
-    // Add new section for Custom Favicon settings
-    $wp_customize->add_section('superb_tracking_code_setting', array(
-        'title' => __('Tracking Code', 'superb'),
-        'priority' => 69,
-    ));
-
-
-    $wp_customize->add_setting('tracking_code', array('default' => '',
-        'sanitize_callback' => 'sanitize_text_field',
-    ));
-
-    $wp_customize->add_control(new superb_customize_textarea_control($wp_customize, 'tracking_code', array(
-        'label' => __('Tracking Code', 'superb'),
-        'section' => 'superb_tracking_code_setting',
-        'settings' => 'tracking_code',
-        'priority' => 2,
-    )));
-
     // Add new section for Header Contact settings
     $wp_customize->add_section('header_contact_setting', array(
         'title' => __('Header Contact', 'superb'),

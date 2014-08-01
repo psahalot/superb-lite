@@ -517,34 +517,6 @@ function superb_envira_define_license_key() {
     
 }
 
-
-if (!function_exists('superb_footer_js')) {
-    function superb_footer_js() { ?>
-            <script type="text/javascript" charset="utf-8">
-                $(window).load(function() {
-                    $('.flexslider').flexslider();
-                });
-            </script>
-        <?php }
-}
-add_action( 'wp_footer', 'superb_footer_js', 20, 1 );
-
-
-if (!function_exists('superb_nav_js')) {
-    function superb_nav_js() { ?>
-            <script>     
-
-            jQuery(document).ready(function($) {   
-
-            $('#site-navigation .menu>ul').slicknav({prependTo:'#mobile-menu'});
-
-            });
-            </script>
-        <?php }
-}
-add_action( 'wp_footer', 'superb_nav_js', 21, 2 );
-
-
 function superb_custom_favicon(){ 
     if(get_theme_mod('custom_favicon')) { ?>
     <link rel="shortcut icon" href="<?php echo get_theme_mod('custom_favicon'); ?> " />
