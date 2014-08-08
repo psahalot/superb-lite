@@ -494,9 +494,7 @@ remove_action( 'woocommerce_after_single_product_summary', 'woocommerce_upsell_d
  * then ignore the front-page.php 
  * template and head over to index.php
  * 
- * @Credits Chip Bennett 
- * 
- * @since Superb 1.2
+ * @since Superb 1.0
  */
 
 
@@ -504,18 +502,6 @@ function superb_filter_front_page_template( $template ) {
      return is_home() ? '' : $template ;
 }
 add_filter( 'frontpage_template', 'superb_filter_front_page_template' );
-
-
-// Add Envira License key
-add_action( 'after_setup_theme', 'superb_envira_define_license_key' );
-function superb_envira_define_license_key() {
-    
-    // If the key has not already been defined, define it now.
-    if ( ! defined( 'ENVIRA_LICENSE_KEY' ) ) {
-        define( 'ENVIRA_LICENSE_KEY', 'f21b503f7793be583daab680a7f8bda7' );
-    }
-    
-}
 
 
 function superb_admin_notice(){

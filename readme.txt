@@ -179,6 +179,9 @@ Licensed under Creative Commons public domain deed CC0 (http://creativecommons.o
 
 == Changelog ==
 
+= 1.0.3 =
+- Updated images and credits 
+
 = 1.0.2 =
 - Updated license and credits
 - Added escaping for social icons

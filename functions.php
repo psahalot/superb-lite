@@ -14,13 +14,6 @@ require( get_template_directory() . '/inc/customizer.php' ); // new customizer o
 require( get_template_directory() . '/inc/custom-header.php' );
 
 
-/**
- * Set the content width based on the theme's design and stylesheet.
- *
- * @since Superb 1.0
- */
-if ( ! isset( $content_width ) )
-	$content_width = 647; /* Default the embedded content width to 790px */
 
 
 /**
@@ -37,6 +30,15 @@ if ( ! isset( $content_width ) )
 if ( ! function_exists( 'superb_setup' ) ) {
 	function superb_setup() {
 		global $content_width;
+                
+                
+                /**
+                 * Set the content width based on the theme's design and stylesheet.
+                 *
+                 * @since Superb 1.0
+                 */
+                if ( ! isset( $content_width ) )
+                        $content_width = 647; /* Default the embedded content width to 790px */
 
 		/**
 		 * Make theme available for translation
