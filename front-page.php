@@ -124,13 +124,13 @@ get_header();
 
 
                            <?php if ( get_theme_mod('home_title_one') !='' ) {  ?><h3><?php echo esc_html(get_theme_mod('home_title_one')); ?></h3>
-                  <?php } else {  ?> <h3><a href="#"><?php esc_html_e('Our Products', 'superb') ?></a></h3>
+                  <?php } else {  ?> <h3><a href="#"><?php esc_html_e('Excellent Services', 'superb') ?></a></h3>
                            <?php } ?>
 
                   <?php if ( get_theme_mod('home_description_one') !='' ) {  ?>
                   <p><?php echo esc_html(get_theme_mod('home_description_one')); ?></p>
                            <?php } else { ?>
-                          <p><?php esc_html_e('Attract your visitor&rsquo;s by displaying latest products.', 'superb') ?> </p>
+                          <p><?php esc_html_e('Describe your services using this featured section.', 'superb') ?> </p>
                                            <?php } ?>
 
                       <a class="read-more" href="<?php if ( get_theme_mod('home_one_link_url') !='' ) { echo esc_url(get_theme_mod('home_one_link_url')); } ?>">
@@ -149,13 +149,13 @@ get_header();
 
 
                            <?php if ( get_theme_mod('home_title_two') !='' ) {  ?><h3><?php echo esc_html(get_theme_mod('home_title_two')); ?></h3>
-                  <?php } else {  ?> <h3><a href="#"><?php esc_html_e('Our Services', 'superb') ?></a></h3>
+                  <?php } else {  ?> <h3><a href="#"><?php esc_html_e('Superb Products', 'superb') ?></a></h3>
                            <?php } ?>
 
                   <?php if ( get_theme_mod('home_description_two') !='' ) {  ?>
                   <p><?php echo esc_html(get_theme_mod('home_description_two')); ?></p>
                            <?php } else { ?>
-                          <p><?php esc_html_e('Feature your services and add more useful content to your site.', 'superb') ?> </p>
+                          <p><?php esc_html_e('Feature your best products and add a link to the products page.', 'superb') ?> </p>
                                            <?php } ?>
 
                       <a class="read-more" href="<?php if ( get_theme_mod('home_two_link_url') !='' ) { echo esc_url(get_theme_mod('home_two_link_url')); } ?>">
@@ -175,13 +175,13 @@ get_header();
 
 
                            <?php if ( get_theme_mod('home_title_three') !='' ) {  ?><h3><?php echo esc_html(get_theme_mod('home_title_three')); ?></h3>
-                  <?php } else {  ?> <h3><a href="#"><?php esc_html_e('Our Clients', 'superb') ?></a></h3>
+                  <?php } else {  ?> <h3><a href="#"><?php esc_html_e('Quick Support', 'superb') ?></a></h3>
                            <?php } ?>
 
                   <?php if ( get_theme_mod('home_description_three') !='' ) {  ?>
                   <p><?php echo esc_html(get_theme_mod('home_description_three')); ?></p>
                            <?php } else { ?>
-                          <p><?php esc_html_e('Show testimonials of your clients to build social trust.', 'superb') ?> </p>
+                          <p><?php esc_html_e('We make sure that your questions are answered quickly.', 'superb') ?> </p>
                                            <?php } ?>
 
                       <a class="read-more" href="<?php if ( get_theme_mod('home_three_link_url') !='' ) { echo esc_url(get_theme_mod('home_three_link_url')); } ?>">
