@@ -37,7 +37,7 @@ get_header();
             
              
             <li id="slider2"> 
-                <img  src="<?php echo get_template_directory_uri(); ?>/assets/images/slide2.jpg" alt=""/>
+                <img  src="<?php echo get_template_directory_uri(); ?>/assets/images/slide3.jpg" alt=""/>
                 <div class="flex-caption">
                     <div class="caption-content">
                         <div class="caption-inner">
@@ -170,7 +170,7 @@ get_header();
                     <?php if ( get_theme_mod('home_featured_three') !='' ) {  ?>
                      <div class="featured-image"><img src="<?php echo esc_url(get_theme_mod('home_featured_three')); ?>" /></div>
                     <?php } else {  ?>
-                     <div class="featured-image"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/feature4.jpg" /></div>
+                     <div class="featured-image"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/feature3.jpg" /></div>
                      <?php } ?>
 
 

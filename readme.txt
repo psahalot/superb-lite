@@ -148,33 +148,28 @@ Superb uses the following images licensed under Creative Commons public domain d
 http://creativecommons.org/publicdomain/zero/1.0/
 
 Slider Image1 : slide1.jpg 
-Source: http://pixabay.com/en/road-asphalt-space-sky-clouds-220058/
-Author URL: http://pixabay.com/en/users/PublicDomainPictures/
+Source: http://publicdomainarchive.com/public-domain-images-unsplash-com-airport-plane-hanger-man-standing-back-foggy-mist-architecture/
+Author URL: http://publicdomainarchive.com/author/matthobbs/
 Licensed under Creative Commons public domain deed CC0 (http://creativecommons.org/publicdomain/zero/1.0/)
 
-Slider Image2 : slide2.jpg 
-Source: http://pixabay.com/en/lake-hills-mountain-landscape-391423/
-Author URL : http://pixabay.com/en/users/Mhy/
-Licensed under Creative Commons public domain deed CC0 (http://creativecommons.org/publicdomain/zero/1.0/)
-
-Slider Image3 : slide3.jpg 
-Source : http://pixabay.com/en/morocco-africa-desert-marroc-sand-123978/
-Author URL: http://pixabay.com/en/users/makunin/
+Slider Image2 : slide3.jpg 
+Source: http://publicdomainarchive.com/public-domain-images-shoes-walking-feet-grey-gravel-blue-jeans/
+Author URL : http://publicdomainarchive.com/author/matthobbs/
 Licensed under Creative Commons public domain deed CC0 (http://creativecommons.org/publicdomain/zero/1.0/)
 
 Featured Image 1: feature1.jpg 
-Source :http://pixabay.com/en/iphone-iphone-4-phone-black-cell-338961/
-Author URL: http://pixabay.com/en/users/kropekk_pl/
+Source :http://publicdomainarchive.com/free-stock-photos-chicago-skyline-night-hotel-71-wacker-drive/
+Author URL: http://publicdomainarchive.com/author/matthobbs/
 Licensed under Creative Commons public domain deed CC0 (http://creativecommons.org/publicdomain/zero/1.0/)
 
 Featured Image 2: feature2.jpg 
-Source: http://pixabay.com/en/notebook-laptop-work-pc-computer-405755/
-Author URL: http://pixabay.com/en/users/Picography/
+Source: http://publicdomainarchive.com/old-vintage-camera-books-shelf-case-tan-brown-3/
+Author URL: http://publicdomainarchive.com/author/matthobbs/
 Licensed under Creative Commons public domain deed CC0 (http://creativecommons.org/publicdomain/zero/1.0/)
 
-Featured Image 3: feature4.jpg 
-Source: http://pixabay.com/en/tree-see-mirroring-sky-blue-sun-68909/
-Author URL: http://pixabay.com/en/users/Lichtmagnet/
+Featured Image 3: feature3.jpg 
+Source: http://publicdomainarchive.com/old-books-roller-skate-wood-2/
+Author URL:http://publicdomainarchive.com/author/matthobbs/
 Licensed under Creative Commons public domain deed CC0 (http://creativecommons.org/publicdomain/zero/1.0/)
 
 == Changelog ==
